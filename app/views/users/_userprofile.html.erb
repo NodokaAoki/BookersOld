@@ -1,0 +1,8 @@
+<h1>User info</h1>
+<%= attachment_image_tag @user,:profile_image, size:"100x100" %><br>
+
+name<br>
+<%= @user.name %><br>
+introduction<br>
+<%= @user.introduction %><br>
+<%=link_to "edit", edit_user_path(@user) %>

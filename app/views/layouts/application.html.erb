@@ -9,7 +9,21 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <header>
+    <div class="application-name">Bookers</div>
+    <div class="menu">
+      Home
+      Users
+      Books
+      logout
+    </div>
+  </header>
+
   <body>
     <%= yield %>
   </body>
+
+  <footer>
+    CopyRight Infratop.inc
+  </footer>
 </html>
